@@ -513,80 +513,114 @@ $sixSigmaCourses = [
 
     <!-- Hero Section -->
     <section class="bg-primary text-white py-16 sm:py-32">
-        <div class="max-w-7xl mx-auto px-4 lg:grid lg:grid-cols-12 lg:gap-8 text-center lg:text-left">
-          <!-- Left Column -->
-          <div class="col-span-12 lg:col-span-7 flex flex-col justify-center mb-8 lg:mb-0">
-            <div class="flex justify-center lg:justify-start">
-              <h1 class="text-xl font-normal text-white border-2 border-primary rounded-full py-2.5 px-4 w-max">
-                Cyber Monday Savings!
-              </h1>
-            </div>
-            <p class="text-3xl sm:text-6xl text-nowrap font-semibold gradient-text mt-5">Get Extra Discounts on</p>
-            <p class="text-3xl sm:text-6xl font-semibold text-secondary">All Online Courses</p>
-            <img src="https://www.1training.org/wp-content/uploads/2024/11/line.webp" alt="Placeholder image"
-              class="w-full pt-8">
-            <div class="mt-7 lg:flex items-center gap-10">
-              <div class="text-5xl sm:text-7xl font-bold gradient-text">
-                <div>10%</div>
-                <div>OFF</div>
-              </div>
-              <div class="mt-5 lg:mt-0">
-                <!-- Countdown Timer -->
-                <div id="countdown"
-                  class="text-4xl sm:text-5xl font-bold flex gap-2 justify-center lg:justify-start gradient-text">
-                  <div>
-                    <span id="days">00</span>
-                    <div class="text-base sm:text-xl font-normal text-center">Days</div>
-                  </div>
-                  <div>:</div>
-                  <div>
-                    <span id="hours">00</span>
-                    <div class="text-base sm:text-xl font-normal text-center">Hours</div>
-                  </div>
-                  <div>:</div>
-                  <div>
-                    <span id="minutes">00</span>
-                    <div class="text-base sm:text-xl font-normal text-center">Minutes</div>
-                  </div>
-                  <div>:</div>
-                  <div>
-                    <span id="seconds">00</span>
-                    <div class="text-base sm:text-xl font-normal text-center">Seconds</div>
-                  </div>
-                </div>
-                <div class="mt-5 lg:flex gap-4 justify-center lg:justify-start">
-                  <button class="bg-primary-dark text-black text-lg font-semibold px-5 py-5 rounded-md">
-                    Claim Offers
-                  </button>
-                  <div onclick="copyCouponCode()"
-                    class="flex items-center border-dashed text-white px-7 py-5 rounded-full cursor-pointer mt-5 lg:mt-0 justify-center">
-                    <span id="couponCode" class="mr-2 text-lg font-semibold">CYBERMONDAY10</span>
-                    <button class="border-l-2 pl-3">
-                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M18.8335 7.6543H9.66683C8.65431 7.6543 7.8335 8.47511 7.8335 9.48763V18.6543C7.8335 19.6668 8.65431 20.4876 9.66683 20.4876H18.8335C19.846 20.4876 20.6668 19.6668 20.6668 18.6543V9.48763C20.6668 8.47511 19.846 7.6543 18.8335 7.6543Z"
-                          stroke="white" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                        <path
-                          d="M4.16683 14.9876C3.1585 14.9876 2.3335 14.1626 2.3335 13.1543V3.98763C2.3335 2.9793 3.1585 2.1543 4.16683 2.1543H13.3335C14.3418 2.1543 15.1668 2.9793 15.1668 3.98763"
-                          stroke="white" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div
+        class="max-w-7xl mx-auto px-4 lg:grid lg:grid-cols-12 lg:gap-8 text-center lg:text-left"
+      >
+        <!-- Left Column -->
+        <div
+          class="col-span-12 lg:col-span-7 flex flex-col justify-center mb-8 lg:mb-0"
+        >
+          <div class="flex justify-center lg:justify-start">
+            <h1
+              class="text-xl font-normal text-black rounded-full py-2.5  w-max"
+            >
+              Lock in this year’s pricing!
+            </h1>
           </div>
-    
-          <!-- Right Column -->
-          <div class="col-span-12 lg:col-span-5 flex justify-center">
-            <img src="https://www.1training.org/wp-content/uploads/2024/12/Cyber-Monday-sales.webp" alt="Placeholder image"
-              class="w-full rounded-lg shadow-lg">
+          <p
+            class="text-3xl sm:text-6xl text-nowrap font-semibold text-black mt-5"
+          >
+            Enjoy Additional
+          </p>
+          <p class="text-3xl sm:text-6xl font-semibold text-black">
+            Savings on All Online
+          </p>
+
+          <p class="text-3xl sm:text-6xl font-semibold text-black">Courses</p>
+         
+          <div class="mt-7 lg:flex items-center gap-10 pt-4" style="border-top: 2px solid #DADADA;">
+            <div class="text-5xl sm:text-7xl font-bold text-black">
+              <div>05%</div>
+              <div>OFF</div>
+            </div>
+            <div class="mt-5 lg:mt-0">
+              <!-- Countdown Timer -->
+              <div
+                id="countdown"
+                class="text-4xl sm:text-5xl font-bold flex gap-2 justify-center lg:justify-start text-black"
+              >
+                <div>
+                  <span id="days">00</span>
+                  <div class="text-base sm:text-xl font-normal text-center">
+                    Days
+                  </div>
+                </div>
+                <div>:</div>
+                <div>
+                  <span id="hours">00</span>
+                  <div class="text-base sm:text-xl font-normal text-center">
+                    Hours
+                  </div>
+                </div>
+                <div>:</div>
+                <div>
+                  <span id="minutes">00</span>
+                  <div class="text-base sm:text-xl font-normal text-center">
+                    Minutes
+                  </div>
+                </div>
+                <div>:</div>
+                <div>
+                  <span id="seconds">00</span>
+                  <div class="text-base sm:text-xl font-normal text-center">
+                    Seconds
+                  </div>
+                </div>
+              </div>
+              <div class="mt-5 lg:flex gap-4 justify-center lg:justify-start">
+                <button
+                  class="bg-primary-dark text-black text-lg font-semibold px-5 py-5 rounded-md"
+                >
+                  Claim Offers
+                </button>
+                <div
+                  onclick="copyCouponCode()"
+                  class="flex items-center border-dashed text-black px-7 py-5 rounded-full cursor-pointer mt-5 lg:mt-0 justify-center"
+                >
+                  <span id="couponCode" class="mr-2 text-lg font-semibold" 
+                    >EXTRA5</span
+                  >
+                  <button class="border-l-2 pl-3 border-black" >
+                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_717_972)">
+                        <path d="M18.332 7.43359H9.16536C8.15284 7.43359 7.33203 8.25441 7.33203 9.26693V18.4336C7.33203 19.4461 8.15284 20.2669 9.16536 20.2669H18.332C19.3446 20.2669 20.1654 19.4461 20.1654 18.4336V9.26693C20.1654 8.25441 19.3446 7.43359 18.332 7.43359Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.66536 14.7669C2.65703 14.7669 1.83203 13.9419 1.83203 12.9336V3.76693C1.83203 2.75859 2.65703 1.93359 3.66536 1.93359H12.832C13.8404 1.93359 14.6654 2.75859 14.6654 3.76693" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_717_972">
+                        <rect width="22" height="22" fill="white" transform="translate(0 0.0996094)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                        
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+
+        <!-- Right Column -->
+        <div class="col-span-12 lg:col-span-5 flex justify-center">
+          <img
+            src="https://www.1training.org/wp-content/uploads/2024/12/xmas-sale-2024-1t.png"
+            alt="Placeholder image"
+            class="w-full"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- Course cards -->
     <section class="bg-purple-100 py-16 mt-14 sm:mt-28 rounded-xl border-secondary max-w-7xl mx-4 xl:mx-auto">
